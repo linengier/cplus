@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/boost.dir/boost.cpp.o  -o boost  -L/home/lin/boost/lib -rdynamic -lboost_system -lboost_filesystem -Wl,-rpath,/home/lin/boost/lib 
