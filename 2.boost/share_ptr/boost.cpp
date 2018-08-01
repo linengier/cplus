@@ -5,13 +5,20 @@
 class implementation
 {
 public:
-    ~implementation() { std::cout <<"destroying implementation\n"; }
+    ~implementation() 
+    { 
+        std::cout <<"destroying implementation\n";
+    }
+
     void do_something()
-    { std::cout << "did something\n"; }
+    {
+        std::cout << "did something\n"; 
+    }
 };
 
 void test()
 {
+    //指针赋予新的对象变量
     boost::shared_ptr<implementation> sp1(new implementation());
     std::cout<<"The Sample now has "<<sp1.use_count()<<" references\n";
     sp1->do_something(); 
