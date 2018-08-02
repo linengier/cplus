@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lin/linnode/cplus/cplus/namespcae_test/namespace.cpp
+iostream
+-
+namespace.h
+/home/lin/linnode/cplus/cplus/namespcae_test/namespace.h
+
+/home/lin/linnode/cplus/cplus/namespcae_test/namespace.h
+

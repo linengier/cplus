@@ -1,0 +1,5 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
+PROJECT(lambda)
+SET(CMAKE_CXX_FLAGS "-std=c++11 -g -Wall")
+SET(SRC lambda.cpp)
+ADD_EXECUTABLE(lambda ${SRC})

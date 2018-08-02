@@ -1,0 +1,3 @@
+/home/lin/linnode/cplus/cplus/namespcae_test/build/CMakeFiles/rebuild_cache.dir
+/home/lin/linnode/cplus/cplus/namespcae_test/build/CMakeFiles/edit_cache.dir
+/home/lin/linnode/cplus/cplus/namespcae_test/build/CMakeFiles/namespace.dir
